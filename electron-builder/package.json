@@ -1,0 +1,30 @@
+{
+  "name": "3d-app",
+  "version": "1.0.0",
+  "description": "3D app",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder build"
+  },
+  "author": "Chaotic",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "productName": "3D app",
+    "appId": "scripter.3DApp",
+    "win": {
+      "target": ["portable"]
+    },
+    "portable": {
+      "artifactName": "3DApp.exe"
+    },
+    "directories": {
+      "output": "app/output",
+      "app": ".",
+      "buildResources": "app/buildResources"
+    }
+  }
+}

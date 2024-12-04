@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@stylistic/eslint-plugin-js": "^2.11.0",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "globals": "^15.12.0",
+    "ip": "^2.0.1",
+    "mini-css-extract-plugin": "^2.9.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "three": "^0.169.0",
+    "three-bvh-csg": "^0.0.16",
+    "three-mesh-bvh": "^0.8.3",
+    "webpack-merge": "^6.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "eslint": "^9.15.0",
+    "html-inline-css-webpack-plugin": "^1.11.2",
+    "html-inline-script-webpack-plugin": "^3.2.1",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "scripts": {
+    "local": "webpack serve --config config/webpack.dev.js",
+    "prod": "webpack --config config/webpack.prod.js"
+  }
+}
